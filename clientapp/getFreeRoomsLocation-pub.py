@@ -79,7 +79,7 @@ def fetchrooms (user_geoloc):
 	resp = req.json()
 	return resp
 
-def main():		
+if __name__ == '__main__':		
 	results = subprocess.check_output(["wifi", "scan"])
 	results = results.decode('utf-8') # needed in python 3
 	results = results.replace("\r","")
@@ -110,6 +110,3 @@ def main():
 		print(r['Room'],"is available at",int(r['Distance']),"meters")
 	print("\n\n\n")
 	input('Press any key to exit')
-
-
-main()

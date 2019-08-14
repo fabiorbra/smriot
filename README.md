@@ -10,5 +10,5 @@ First install pipenv. Then:
 ```
 pip install pipenv
 pipenv install requests
-pipenv run python getFreeRoomsLocation-pub.py
+pipenv run python clientapp/getFreeRoomsLocation-pub.py
 ``` 

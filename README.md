@@ -1,9 +1,14 @@
 # smriot
 Smart Meeting Room IoT Use Cases
 
-# To run the script type:
+# Running
+
+This project requires Python 3 and few packages, such as requests
+
+First install pipenv. Then:
 
 ```
 pip install pipenv
+pipenv install requests
 pipenv run python getFreeRoomsLocation-pub.py
 ``` 

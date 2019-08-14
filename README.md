@@ -2,4 +2,8 @@
 Smart Meeting Room IoT Use Cases
 
 # To run the script type:
-python getFreeRoomsLocation-pub.py
+
+```
+pip install pipenv
+pipenv run python getFreeRoomsLocation-pub.py
+``` 
